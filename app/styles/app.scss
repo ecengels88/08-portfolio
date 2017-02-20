@@ -3,4 +3,43 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$m-gutter: 1rem;
+$m-maxwidth: 65rem;
+$c-white: #fefefe;
+$c-navground: #2c3e50;
 @import 'box-sizing';
+@import 'resets';
+
+
+.header {
+  margin: 0 -1rem;
+  padding: 0 $m-gutter;
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    margin: -2rem -1rem 0;
+    background: $c-navground;
+    box-shadow: 0.1rem 0 1rem 0.2rem;
+  }
+}
+
+.name {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  padding: $m-gutter;
+  color: $c-white;
+
+  &__item {
+    margin: 0 $m-gutter;
+  }
+}
+
+.link {
+  color: $c-white;
+  text-decoration: none;
+}

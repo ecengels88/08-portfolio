@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: $m-gutter;
+
+  &__header {
+    background: #2980b9;
+  }
+}
+
+container {
+  max-width: $m-maxwidth;
+  margin: 0 auto;
+}
