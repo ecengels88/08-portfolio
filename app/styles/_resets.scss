@@ -14,13 +14,12 @@ img {
 
 .section {
   padding: $m-gutter;
-
-  &__header {
-    background: #2980b9;
-  }
 }
 
-container {
-  max-width: $m-maxwidth;
+.container {
   margin: 0 auto;
+
+  &__navbar {
+    max-width: 100%;
+  }
 }
