@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: $m-gutter;
+
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+
+  &__navbar {
+    max-width: 100%;
+  }
+}

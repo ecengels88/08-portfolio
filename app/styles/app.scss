@@ -3,4 +3,23 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$m-gutter: 1rem;
+$m-maxwidth: 65rem;
+$c-black: #000;
+$c-white: #fefefe;
+$c-navground: #2c3e50;
+$c-header: #2980b9;
 @import 'box-sizing';
+@import 'resets';
+@import 'header';
+
+.title {
+  padding: 3rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.grid {
+
+}
