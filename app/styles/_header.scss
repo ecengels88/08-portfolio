@@ -1,0 +1,47 @@
+header {
+  background: $c-header;
+  color: $c-white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -$m-gutter;
+  padding: 0.2rem 2rem;
+  background: $c-navground;
+
+  &__name {
+    font-size: 1.2rem;
+  }
+
+  &__list {
+    display: flex;
+
+    > * + * {
+      padding-left: 2rem;
+    }
+  }
+}
+
+.list-item__link {
+  color: $c-white;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+
+  &__title {
+    color: $c-black;
+  }
+
+  &__subtitle {
+    margin: 0;
+  }
+}
